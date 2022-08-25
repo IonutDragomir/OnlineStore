@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.cartBox-component {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 35px #a8acb0;
+  /* box-shadow: 0px 4px 35px #a8acb0, 0px 4px 35px 0px #a8acb0; */
+  width: 16.5vw;
+  height: auto;
+  position: fixed;
+  left: 76.5vw;
+  top: 7vh;
+  z-index: 2;
+  padding: 1vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.cartBox-totalAmount {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 1.25vh 0px;
+}
+
+.cartBox-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+
+.cartBox-viewBag {
+  border: 1px solid black;
+  width: 47%;
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-weight: 600;
+}
+
+.cartBox-checkOut {
+  width: 47%;
+  text-align: center;
+  padding-top: 1vh;
+  background-color: #5ece7b;
+  padding-bottom: 1vh;
+  color: #fff;
+}

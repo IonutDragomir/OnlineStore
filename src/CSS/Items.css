@@ -1,0 +1,43 @@
+.items-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 12vh;
+  padding-top: 1vh;
+  overflow: hidden;
+  margin: 2.5vh 0.5vw;
+}
+
+.button-wrapper {
+  width: 1vw;
+  text-align: center;
+  margin-left: 3.25vw;
+}
+
+.title-price-container {
+  text-align: start;
+  width: 30%;
+}
+
+.price,
+.button-wrapper > p {
+  font-weight: 600;
+}
+
+.increase-decrease-button {
+  width: 26%;
+  align-self: center;
+  text-align: end;
+}
+
+.button-wrapper > button {
+  background-color: #fff;
+  border: 1px solid black;
+  width: 21px;
+  height: 20px;
+}
+
+.item-picture > img {
+  width: 5vw;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.card {
+  /* border: 2px solid gray; */
+  padding: 10px;
+  width: 25vw;
+  position: relative;
+}
+
+.card:hover {
+  /* box-shadow: 10px 10px 35px #888888, -10px -10px 35px #888888; */
+  box-shadow: 0px 4px 35px #a8acb0, 0px 4px 35px 0px #a8acb0;
+  cursor: pointer;
+}
+
+.card-image-message {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 12vh;
+  left: 7.5vw;
+  line-height: 34.4px;
+  font-size: 28px;
+
+}
+
+.card-image>img {
+  width: 25vw;
+  height: 35vh;
+  object-fit: contain;
+}
+
+.card-cartButton {
+  position: absolute;
+  left: 21vw;
+  top: 34vh;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background-color: #5ece7b;
+}
+
+.card-button-image {
+  width: 30px;
+  height: 30px;
+}
+
+.card-description {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.card-description-price {
+  font-weight: 600;
+}

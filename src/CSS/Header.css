@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.header {
+  display: flex;
+  position: sticky;
+  /* width:  1167px; */
+  width: 93vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.tags {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  font-family: system-ui;
+  font-size: 20px;
+  cursor: context-menu;
+}
+
+.tags-men,
+.tags-kids {
+  width: 2vw;
+}
+
+.tags-men:hover,
+.tags-kids:hover {
+  font-size: 24px;
+}
+
+.tags-women {
+  color: #5ece7b;
+  border-bottom: 2px solid #5ece7b;
+}
+
+.bag {
+  width: 64%;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.bag-image {
+  width: 35px;
+  height: 30px;
+  margin-left: -6px;
+  align-self: self-start;
+  margin-top: 10px;
+}
+
+/* #curency {
+  border: none;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+} */
+.cart-select-dollar-button {
+  margin-top: 1.5vh;
+  border: none;
+  background-color: #ffffff;
+  position: relative;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28.8px;
+}
+
+.cart-select-dollar-button>img {
+  width: 12px;
+  position: absolute;
+  /* left: 1.25vw; */
+  margin-left: 0.35vw;
+  top: 2vh;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+  /* margin-right: 101px; */
+  flex-direction: row;
+  position: relative;
+}
+
+.cart-wrapper-icon {
+  margin-left: 30px;
+  /* border: none; */
+  background-color: #fff;
+  /* margin-top: -4vh; */
+}
+
+.cart-icon {
+  width: 20px;
+  height: 22px;
+  margin-top: 18.5px;
+}
+
+.cart-circle-wrapper {
+  background-color: #1d1f22;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-radius: 60px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: absolute;
+  left: 13.5vw;
+  top: 1.05vh;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+}
+
+.cart-circle-wrapper-number {
+  /* font-weight: 700;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif; */
+  margin-top: 2.5px;
+  margin-left: 6.25px;
+}
+
+.curency-selector {
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  box-shadow: 0px 4px 35px #a8acb0;
+  /* box-shadow: 0px 4px 35px #a8acb0, 0px 4px 35px 0px #a8acb0; */
+  width: 6.5vw;
+  height: auto;
+  position: fixed;
+  left: 88vw;
+  top: 7vh;
+  z-index: 2;
+}
+
+.currency-option {
+  border: none;
+  background-color: #ffffff;
+  padding: 8px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 0.5vh;
+  height: 5vh;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28.8px;
+}
+
+.currency-option:hover {
+  color: #5ece7b;
+  border-bottom: 2px solid #5ece7b;
+}

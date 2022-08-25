@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+    margin-top: 2vh;
+    height: 77vh;
+    /* font-family: "Raleway", sans-serif; */
+}
+
+.product-sidePictures {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 83vh;
+    /* margin-top: 3vh; */
+    width: 11vw;
+    overflow: auto;
+    height: 74vh;
+}
+
+.product-sidePictures>img {
+    width: 8vw;
+    height: 14.5vh;
+    object-fit: contain;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.product-sidePictures>img:hover {
+    border: 2px solid #e0e0e0;
+}
+
+.product-mainPicture {
+    width: 40vw;
+    height: 74vh;
+    object-fit: contain;
+    /* margin-top: 3vh; */
+}
+
+.product-sidePictures,
+.product-mainPicture,
+.product-atributes-container {
+    margin-top: 3vh;
+}
+
+.atributes-brand,
+.atributes-price,
+.properties-name {
+    font-weight: 600;
+}
+
+.properties-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.box {
+    width: 1.5vw;
+    height: 2vh;
+}
+
+.product-atributes-container {
+    width: 22vw;
+}
+
+.atributes-brand {
+    font-weight: 700;
+}
+
+.atributes-brand,
+.atributes-name {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.atributes-brand {
+    margin-bottom: 2vh;
+}
+
+.atributes-name {
+    margin-bottom: 4vh;
+    margin-top: 0vh;
+}
+
+.product-properties-container {
+    margin-bottom: 4vh;
+}
+
+.properties-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    /* font-weight: 700; */
+    margin-bottom: 1vh;
+}
+
+.box {
+    border: 1px solid #1d1f22;
+    width: 63px;
+    height: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    border: 1px solid #a6a6a6;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.atributes-price {
+    font-family: 'Roboto', sans-serif;
+    color: #1d1f22;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.atributes-price-amount {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #1d1f22;
+    margin-bottom: 4vh;
+}
+
+.atributes-addButton {
+    background-color: #5ece7b;
+    border: none;
+    width: 22vw;
+    height: 52px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 4vh;
+}
+
+.atributes-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    overflow: overlay;
+    height: 21vh;
+}
+
+.atributes-description>div {
+    margin-left: -2vh;
+}
